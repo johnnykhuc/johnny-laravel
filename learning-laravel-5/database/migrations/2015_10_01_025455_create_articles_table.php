@@ -18,7 +18,6 @@ class CreateArticlesTable extends Migration
             $table->text('body');
             $table->timestamps('published_at');
             $table->rememberToken();
-            $table->timestamps();
         });
     }
 
